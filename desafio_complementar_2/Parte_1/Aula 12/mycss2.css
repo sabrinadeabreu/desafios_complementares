@@ -1,0 +1,22 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: brown; 
+    transition: all 2s;   
+}
+
+#primeiro-elemento:hover {
+    transform: skewX(10deg);
+}
+
+#segundo-elemento:hover {
+    background-color: black;
+}
+
+#terceiro-elemento:hover {
+    transform: scale(2,2);
+}
+
+#quarto-elemento:hover {
+    transform: rotateZ(45deg);
+}

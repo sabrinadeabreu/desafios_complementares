@@ -1,0 +1,89 @@
+.link {
+    background-color:coral;    
+}
+
+.link:active{
+    background-color: green;
+}
+
+.link:visited {
+    color:aqua;    
+}
+
+.fundo_com_imagem {
+    background-image: url(lulafeio.jpeg);
+    background-size: contain;
+    height: 200px
+}
+
+.fundo_com_imagem p {
+    font-size: 300%;
+    color: white
+}
+
+.fundo_com_imagem:hover {
+    background-image: url(lulabonito.jpeg);
+    background-size: contain;
+    height: 200px
+}
+
+input:focus {
+    background-color: grey;
+}
+
+input:required {
+    background: yellow;
+}
+
+input[type=email]:invalid {
+    background-color: red;
+}
+
+
+li:first-child {
+    background-color:orange;
+}
+
+li:last-child {
+    background-color: pink;
+}
+
+li:nth-child(2) {
+    background-color: black;
+    color: white
+}
+
+div:nth-of-type(2n) {
+    background-color: black;
+    color: white
+}
+
+div:not(.link):first-of-type {
+    background-color:aquamarine;
+}
+
+form::after {
+    content: "Obrigada por completar o formulario";
+    background-color: blueviolet;
+}
+
+form::before {
+    content:"Por favor, complete o formulario.";
+    background-color:chartreuse;    
+}
+
+p::first-letter{
+    font-size: 200px;
+}
+
+p::selection{
+    background-color: yellow;
+}
+
+p::first-line{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+::placeholder{
+    color:grey
+}

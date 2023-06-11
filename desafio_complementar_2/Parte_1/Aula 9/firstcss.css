@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap');
+
+body {
+    font-family: 'Roboto Mono';
+}
+.desafio1 {
+    color: orange
+}
+
+#lista1 {
+    /*personalizar bullets e numeros*/
+    /*texto na cor azul em hexadecimal*/
+    /*cor do backgorunf usando rgba*/
+    list-style-type: upper-roman;
+    color: #0000ff;
+    background-color: rgb(145, 147, 13);
+}
+
+#lista2 {
+    list-style-type: upper-roman;
+    color: #00f0ff;
+    background-color: rgb(33, 13, 147);
+}

@@ -1,0 +1,46 @@
+.exercicio1 {
+    /* propriedades decorativas */
+    border: solid 1px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+     /* propriedades que fazem o "problema" */
+    width: 100px;
+    height: 110px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.exercicio2 {
+    /* propriedades decorativas */
+    border: dotted 1px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+     /* propriedades que fazem o "problema" */
+    width: 100px;
+    height: 110px;    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    overflow: scroll;
+}
+
+.exercicio3 p {
+    display: inline;
+    background-color: yellow;
+}
+
+.exercicio3 p span{
+    display: block;
+    background-color: grey;
+}

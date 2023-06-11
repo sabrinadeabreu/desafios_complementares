@@ -1,0 +1,42 @@
+#primeiro-elemento{
+    background-image: linear-gradient(to bottom, blue, purple);
+    width: 400px;
+    height: 250px;
+    transform: translate(100px,0px);
+}
+
+#segundo-elemento{
+    background-image: linear-gradient(to right, blue, purple);
+    width: 400px;
+    height: 250px;
+    transform: rotate(10deg)
+}
+
+#terceiro-elemento{
+    background-image: linear-gradient(to left, blue, purple);
+    width: 400px;
+    height: 250px;
+    transform: rotateX(45deg);
+}
+
+#quarto-elemento{
+    background-image: linear-gradient(blue, purple);
+    width: 400px;
+    height: 250px;
+    transform: rotateY(45deg);
+}
+
+#quinto-elemento{
+    background-image: linear-gradient(45deg, blue, purple);
+    width: 400px;
+    height: 250px;
+    transform: rotateZ(45deg);
+}
+
+#sexto-elemento{
+    background-image: radial-gradient(blue, purple);
+    width: 400px;
+    height: 250px
+}
+
+
