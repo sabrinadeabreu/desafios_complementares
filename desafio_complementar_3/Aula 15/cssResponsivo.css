@@ -1,0 +1,53 @@
+.grade {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "content"
+        "sidebar";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr;    
+    grid-gap: 10px;
+    background-color: pink;
+    border:solid;
+    padding: 1%;
+}
+
+@media only screen and (min-width: 1024px) {
+    .grade {
+        display: grid;
+        grid-template-areas:
+            "header header"
+            "content sidebar";
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 2fr;    
+        grid-gap: 10px;
+        margin: 10px;
+        background-color: pink;
+        border:solid;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+}
+
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: content;
+}
+
+aside {
+    grid-area: sidebar;
+}
+
+.color-darker-pink {
+    background-color: rgb(246, 130, 149);    
+}
+
+.border {
+    border-radius: 10px;
+}

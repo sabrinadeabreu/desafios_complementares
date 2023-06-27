@@ -1,0 +1,51 @@
+.grade {
+    display: grid;
+    grid-template-areas:
+        "caixa-verde caixa-azul caixa-azul"
+        "caixa-verde caixa-vermelha caixa-cinza"
+        "caixa-rosa caixa-vermelha caixa-marrom";
+    grid-template-rows: 1fr 1fr 1fr;    
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-gap: 10px;
+}
+
+.caixa-verde {
+    grid-area: caixa-verde;
+    background-color: rgb(8, 155, 145);
+}
+
+.caixa-azul {
+    grid-area: caixa-azul;
+    background-color:rgb(97, 185, 229);
+}
+
+.caixa-vermelha {
+    grid-area: caixa-vermelha;
+    background-color: rgb(208, 110, 95);
+}
+
+.caixa-cinza {
+    grid-area: caixa-cinza;
+    background-color: grey;
+}
+
+.caixa-rosa {
+    grid-area: caixa-rosa;
+    background-color: rgb(234, 68, 198);
+}
+
+.caixa-marrom {
+    grid-area: caixa-marrom;
+    background-color:rgb(122, 60, 60);
+}
+
+.border {
+    border-radius: 10px;
+}
+
+
+
+
+
+
+

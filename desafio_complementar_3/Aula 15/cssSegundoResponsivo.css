@@ -1,0 +1,75 @@
+.grade {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "content"
+        "signup"
+        "feature";
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 2fr 1fr 3fr;    
+    border:solid;
+}
+
+@media only screen and (min-width: 1024px) {
+    .grade {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "feature"
+            "signup"
+            "content";
+        grid-template-columns: 100%;
+        grid-template-rows: 2fr 2fr 1fr 2fr;    
+        border:solid;
+    }
+}
+
+
+header {
+    grid-area: header;
+    background-color: blue;
+}
+
+main {
+    grid-area: content;
+    background-color: grey;
+}
+
+#feature {
+    grid-area: feature;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+}
+
+#feature1 {
+    background-color: yellow;
+}
+
+#feature2 {
+    background-color: purple;
+}
+
+#feature3 {
+ background-color: red;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    #feature {
+        grid-area: feature;
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+        align-content: stretch;
+        justify-items: stretch;
+        align-items: stretch;
+    }
+}
+
+
+#signup {
+    grid-area: signup;
+    background-color: cornflowerblue;
+}
+

@@ -1,0 +1,38 @@
+.grade {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "nav content"
+        "nav footer";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(234, 20, 152);
+}
+
+nav {
+    grid-area: nav;
+    background-color: darkkhaki;
+    align-self: stretch;
+}
+
+main {
+    grid-area: content;
+    background-color: coral;
+}
+
+footer {
+    grid-area: footer;
+    background-color: green;
+}
+
+.border {
+    border: solid 1px;
+}
+
+.centralize-text {
+    align-items: center;
+}
